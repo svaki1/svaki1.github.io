@@ -18,7 +18,8 @@ rap.min.css" rel="stylesheet">
     <div class="container-xxl">
 
     <!--    toggle button for mobile nav    -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+            aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -28,7 +29,7 @@ rap.min.css" rel="stylesheet">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a href="#sidebar" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
                         <span class="fw-bold text-secondary display-6">
-                            <i class="bi bi-book-half"></i>
+                            <i class="bi bi-folder-fill"></i>
                                 Projects
                         </span>
                     </a>
@@ -48,91 +49,128 @@ rap.min.css" rel="stylesheet">
 
     <!--    Title  -->
     <h1 class="display-2 lead text-center">CV</h1>
+    <br>
 
     <!--   Bold header w/ icon -->
-    <span class="fw-bold">
+    <span class="fw-bold lead">
         <i class="bi bi-person-circle"></i>
         Person data
     </span>
 
     <p class="lead">Navn: Patrick H</p>
+    <br>
 
     <!--   Bold header w/ icon -->
-    <span class="fw-bold">
+    <span class="fw-bold lead">
         <i class="bi bi-person-circle"></i>
         Resume
     </span>
 
-    <p class="lead">Ambitiøs 18 årig på Data og kommunikationsuddannelsen som datateknikker med speciale i programmering hos TEC. Færdig med uddannelsen i 2027. Færdiggjort GF2 og er nu på skoleoplæringscenter. Søger læreplads.</p>
+    <p class="lead">Ambitiøs 18 årig på Data og kommunikationsuddannelsen som datateknikker med speciale i programmering hos TEC.
+        Færdig med uddannelsen i 2027. Færdiggjort GF2 og er nu på skoleoplæringscenter. Søger læreplads.</p>
+        <br>
 
     <!--   Bold header w/ icon -->
-    <span class="fw-bold">
+    <span class="fw-bold lead">
         <i class="bi bi-person-circle"></i>
         Uddannelse
     </span>
 
-    <p class="lead">2023 -<span style="padding-left:90px;">Skoleoplæringscenter som programmør<span style="padding-left:70px;">TEC Hvidovre</p>
-    <p class="lead">2022<span style="padding-left:100px;">Færdiggjort GF2 Data og kommunikation<span style="padding-left:62px;">TEC Ballerup</p>
-    <p class="lead">2020<span style="padding-left:100px;">Bestået folkeskole afgangseksamen<span style="padding-left: 113px;">Vigerslev Allés Skole</p>
+    <!--    grid layout -->
+    <div class="row">
+        <div class="col-sm-4 col-lg-2">
+        <div class="p-1 lead">2023 -</div>
+        <div class="p-1 lead">2022</div>
+        <div class="p-1 lead">2020</div>
+    </div>
+    <div class="col-sm-4 col-lg-4">
+        <div class="p-1 lead">Skoleoplæringscenter som programmør</div>
+        <div class="p-1 lead">Færdiggjort GF2 Data og kommunikation</div>
+        <div class="p-1 lead">Bestået folkeskole afgangseksamen</div>
+    </div>
+    <div class="col-sm-4 col-lg-6">
+        <div class="p-1 lead">TEC Hvidovre</div>
+        <div class="p-1 lead">TEC Ballerup</div>
+        <div class="p-1 lead">Vigerslev Allés Skole</div>
+    </div>
+    </div>
+    <br>
 
     <!--   Bold header w/ icon -->
-    <span class="fw-bold">
+    <span class="fw-bold lead">
         <i class="bi bi-person-circle"></i>
         Erhvervserfaring
     </span>
 
-    <p class="lead">2022 - 2022<span style="padding-left:40px;">Servicemedarbejder<span style="padding-left:240px;">McDonalds Valby</p>
-    <p class="lead">2020 - 2021<span style="padding-left:40px;">Servicemedarbejder<span style="padding-left:240px;">Føtex, Fisketorvet</p>
+    <!--    grid layout -->
+    <div class="row">
+        <div class="col-sm-4 col-lg-2">
+        <div class="p-1 lead">2022 - 2022</div>
+        <div class="p-1 lead">2020 - 2021</div>
+    </div>
+    <div class="col-sm-4 col-lg-4">
+        <div class="p-1 lead">Servicemedarbejder</div>
+        <div class="p-1 lead">Servicemedarbejder</div>
+    </div>
+    <div class="col-sm-4 col-lg-6">
+        <div class="p-1 lead">McDonalds Valby</div>
+        <div class="p-1 lead">Føtex, Fisketorvet</div>
+    </div>
+    </div>
+    <br>
 
-        <!--   Bold header w/ icon -->
-    <span class="fw-bold">
-        <i class="bi bi-person-circle"></i>
-        IT Kompentencer<span style="padding-left:390px;"></span>
-        <i class="bi bi-person-circle"></i>
-        Sprog
-    </span>
+        <!--   Grid layout + Bold header w/ icon -->
 
-    <!--    Make bullet points stay in the same line    -->
-    <style>
-        li {
-            margin: 0;
-            display: inline;
-        }
-        li:before {
-            content: " · ";
-            font-weight: bold
-        }
-        ul {
-            list-style-type: disc;
-        }
-    </style>
-    
-    <!--    Bullet points   -->
-    <ul>
-        <p class="lead">
-          <li>C#</li><span style="padding-left:490px;">
-            <li>Dansk - Modersmål</li>  
-        </p>
-    </ul>
+        <div class="row">
+            <div class="col-sm-4 col-lg-2">
+                <p class="fw-bold lead">
+                    <i class="bi bi-person-circle"></i>
+                    IT Kompentencer
+                </p>
+            </div>
 
-    <ul>
-        <p class="lead">
-          <li>HTML</li><span style="padding-left:469px;">
-            <li>Engelsk - Flydende</li>  
-        </p>
-    </ul>
+            <div class="col-sm-4 col-lg-4">
+                <span class="fw-bold lead">
+                    <i class="bi bi-person-circle"></i>
+                    Sprog
+                </span>
+            </div>
+        </div>
+
+    <!--    grid layout + Bullet points   -->
+
+    <div class="row">
+        <div class="col-sm-4 col-lg-2">
+            <ul>
+                <p-1 class="lead">
+                  <li>C#</li>
+                  <li>HTML</li>
+                </p>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-lg-2">
+            <ul>
+                <p-1 class="lead">
+                  <li>Dansk - Modersmål</li>
+                  <li>Engelsk - Flydende</li>
+                </p>
+            </ul>
+        </div>
+    </div>
+    <br>
 
     <!--   Bold header w/ icon -->
-    <span class="fw-bold">
+    <span class="fw-bold lead">
         <i class="bi bi-person-circle"></i>
         Personlige kompetencer
     </span>
 
     <p class="lead">Dygtig til at arbejde sammen med kollegaer under pres.
         Sætte varer på plads, og sikre at alt ser godt ud i butikken når kunderne kommer. Hjælpe kunderne når de spørger om hjælp.</p>
+        <br>
 
         <!--   Bold header w/ icon -->
-    <span class="fw-bold">
+    <span class="fw-bold lead">
         <i class="bi bi-person-circle"></i>
         Om mig
     </span>
